@@ -48,10 +48,66 @@
     font-family: 'Titillium Web', sans-serif;
     color: cadetblue;
     float: left;
+    margin-top: 100px;
 }
+#controls{
+    margin-top: 320px;
+}
+#flashContent{
+    clear: both;
+    overflow: hidden;
+}
+#player_bg{
+    background-color: cadetblue;
+    width: 960px;
+    height: 40px;
+    position: absolute;
+
+}
+#play{
+    margin-top: 0;
+    position: absolute;
+}
+#pause{
+    margin-top: 0;
+    position: absolute;
+
+}
+#seeker{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 40px;
+}
+#mic{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 450px;
+}
+#camera{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 500px;
+}
+#record{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 550px;
+}
+#volume{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 660px;
+}
+#vol_seeker{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 730px;
+}
+
 
 a{
     text-decoration: none;
+    color: cadetblue;
 }
 a:visited{
     color: cadetblue;
@@ -62,3 +118,9 @@ a:active{
 a:hover{
     color: white;
 }
+
+button{
+    background: transparent;
+    border: transparent;
+}
+
