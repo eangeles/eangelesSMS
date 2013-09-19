@@ -1,21 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-    <head>
-        <title>Win Learning</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,300,200' rel='stylesheet' type='text/css'>
+<head>
+    <title>Win Learning</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,300,200' rel='stylesheet' type='text/css'>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script type="text/javascript" src="js/swfobject.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/sms_setup.js"></script>
- </head>
- <body>
 
- <div id="wrapper">
-     <div id="top">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/sms_setup.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="top">
         <div id="logo">
             <img src="img/logo.png" alt="logo">
         </div>
@@ -27,56 +27,60 @@
                 <li><a href="#">Pricing</a> </li>
             </ul>
         </div>
-     </div>
-     <div id="content">
-         <p>Do you hate being bad in video games? Do you wanna be called a hacker/cheater even you aren't? Here at Win Learning Center, you learn, you win!</p>
-         <p>Learn from one of the best players in the whole world. Even professional players come here to get better at what they do.</p>
-     </div>
+    </div>
+    <div id="content">
+        <p>Do you hate being bad in video games? Do you wanna be called a hacker/cheater even you aren't? Here at Win Learning Center, you learn, you win!</p>
+        <p>Learn from one of the best players in the whole world. Even professional players come here to get better at what they do.</p>
+    </div>
 
-     <div style="width: 960px; height: 480px;">
-         <div id="flashContent">
-             <script type="text/javascript">
-                 var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
-                 document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" );
-             </script>
-         </div>
-     </div>
-     <div id="controls">
-         <div id="player_bg"></div>
-         <button id="play"> <img src="img/videoplayer/play.png" height="30px" alt=""></button>
-         <!--<button id="pause"> <img src="img/videoplayer/pause.png" height="24px" alt=""></button>-->
-         <button id="seeker"> <img src="img/videoplayer/seeker.png" alt=""></button>
-         <button id="record"> <img src="img/videoplayer/rec.png" alt=""></button>
-         <button id="mic"> <img src="img/videoplayer/mic.png" height="30px" alt=""></button>
-         <button id="camera"> <img src="img/videoplayer/camera.png" alt=""></button>
-         <button id="volume"> <img src="img/videoplayer/volume.png" alt=""></button>
-         <button id="vol_seeker"> <img src="img/videoplayer/volumeseeker.png" alt=""></button>
+    <div style="width: 960px; height: 480px;">
+        <div id="flashContent">
+            <script type="text/javascript">
+                var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
+                document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" );
+            </script>
+        </div>
+    </div>
+    <div id="controls">
+        <div id="player_bg"></div>
+        <button id="play"> <img id="play2" src="img/videoplayer/play.png" height="30px" alt=""></button>
 
-         <!--<button id="pause" value="Record">pause</button>-->
-         <!--<button id="record" value="Record">Record</button>-->
-         <!--<button id="stopRecord" value="stop">Stop Record</button>-->
-         <!--<select id="select">-->
 
-         <!--</select>-->
-         <!--<select id="select2">-->
-         <!--</select>-->
-     </div>
+        <!--<button id="pause"> <img src="img/videoplayer/pause.png" height="24px" alt=""></button>-->
+        <div id="seeker"> <button id="seeker_tab"> <img src="img/videoplayer/dot.png" alt="volume seeker"></button><img src="img/videoplayer/seeker.png" alt=""></div>
+        <div id="timer">0:00</div><div id="divider">/</div> <div id="duration">0:00</div>
+        <button id="record"> <img src="img/videoplayer/rec.png" alt=""></button>
+        <button id="mic"> <img src="img/videoplayer/mic.png" height="25px" width="25px" alt=""></button>
+        <button id="camera">  <img src="img/videoplayer/camera.png" alt="" height="30px">  </button>
+        <button id="volume"> <img src="img/videoplayer/volume.png" alt="" height="40px"> </button>
+        <div id="vol_seeker"> <button id="vol_tab"> <img src="img/videoplayer/vol_dot.png" alt="volume seeker"></button><img src="img/videoplayer/volumeseeker.png" alt=""></div>
+        <!--<button id="play" value="Record">Play</button>-->
+        <!--&lt;!&ndash;<button id="pause" value="Record">pause</button>&ndash;&gt;-->
+        <!--<button id="record" value="Record">Record</button>-->
+        <!--<button id="stopRecord" value="stop">Stop Record</button>-->
+        <select id="select">
 
-     <div id="comments">
-         <h3>Comments:</h3>
-         <h4>User 1:</h4>
-         <p>That is awesome!</p>
-         <h4>User 2:</h4>
-         <p>Great way to learn how to drive better!!</p>
-     </div>
+        </select>
+        <!--<select id="select2">-->
+        <!--</select>-->
+    </div>
 
-     <div id="footer">
-         <div id="copyright">
-             <p>&copy; 2013 Win Learning Center</p>
-         </div>
-     </div>
+    <div id="comments">
+        <h3>Comments:</h3>
+        <h4>User 1:</h4>
+        <p>That is awesome!</p>
+        <h4>User 2:</h4>
+        <p>Great way to learn how to drive better!!</p>
+    </div>
 
- </div><!-- end wrapper -->
+    <div id="footer">
+        <div id="copyright">
+            <p>&copy; 2013 Win Learning Center</p>
+        </div>
+    </div>
 
-   </body>
+</div><!-- end wrapper -->
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
