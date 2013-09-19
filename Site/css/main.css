@@ -81,11 +81,13 @@
 #duration{
     margin-top: -25px;
     position: absolute;
-    margin-left: 455px;
+    color: white;
+    margin-left: 457px;
     font-family: 'Titillium Web', sans-serif;
 }
 #timer{
     margin-top: -25px;
+    color: white;
     position: absolute;
     margin-left: 420px;
     font-family: 'Titillium Web', sans-serif;
