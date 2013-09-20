@@ -12,18 +12,14 @@ var flashReady = function(){
     });
 
     for(var i = 0; i<mic.length; i++){
-//        var mic_html = $("<option>").text(mic[i]).val(i);
-//        $("#select").append(mic_html);
-//        var mic_html = $("<img src='img/videoplayer/mic.png'>").html(mic[i]).val(0);
-//        $("#mic").append(mic_html);
+        var mic_html = $("<option>").text(mic[i]).val(i);
+        $("#select").append(mic_html);
     }
-//    for(var j = 0; j<cam.length; j++){
-////        var cam_html = $("<option>").text(cam[j]).val(j);
-////        $("#select2").append(cam_html);
-//        var cam_html = $("<img src='img/videoplayer/camera.png'>").html(cam[j]).val(j);
-//        $("#camera").append(cam_html);
-//
-//    }
+    for(var j = 0; j<cam.length; j++){
+        var cam_html = $("<option>").text(cam[j]).val(j);
+        $("#select2").append(cam_html);
+
+    }
 
     $("#play").click(function(e){
         flash.connect('rtmp://localhost/SMSServer');
@@ -83,7 +79,7 @@ var getDuration = function(duration){
 }
 
 var seekTime = function(time){
-    $('#timer').text(Math.floor(time));
+    $('#timer').text(time);
 
 
     if(durationTime){

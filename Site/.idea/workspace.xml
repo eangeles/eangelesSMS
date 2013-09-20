@@ -4,8 +4,8 @@
     <list default="true" id="de3da65d-3489-43f1-8c98-2539c983b3cc" name="Default" comment="" />
     <ignored path="Site.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379618454623" ignored="false" />
-    <file path="/main.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379624741372" ignored="false" />
+    <file path="/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379642545140" ignored="false" />
+    <file path="/main.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379643945254" ignored="false" />
     <file path="/normalize.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1378603818081" ignored="false" />
     <file path="/main.js" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379561946119" ignored="false" />
     <file path="$PROJECT_DIR$/../../Win/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379138333637" ignored="false" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="83" selection-start="2843" selection-end="2843" vertical-scroll-proportion="-23.666666">
+            <state line="53" column="49" selection-start="2737" selection-end="2737" vertical-scroll-proportion="-13.041667">
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="20" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.36038515">
+            <state line="172" column="8" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.8349381">
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="435" selection-end="533" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -276,23 +276,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="435" selection-end="533" vertical-scroll-proportion="0.0">
+        <state line="53" column="49" selection-start="2737" selection-end="2737" vertical-scroll-proportion="-13.041667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="83" selection-start="2843" selection-end="2843" vertical-scroll-proportion="-23.666666">
+        <state line="17" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="20" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.36038515">
+        <state line="172" column="8" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.8349381">
           <folding />
         </state>
       </provider>
