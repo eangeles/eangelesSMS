@@ -54,7 +54,7 @@ var connected = function(success,error){
         }else if(record_play === "play"){
             flash.startPlaying('hobbit_vp6');
 
-            $("#play").replaceWith("<button id='pause'><img id='play2' height='30px' src='img/videoplayer/pause.png'></div>");
+            $("#play").replaceWith("<button id='pause'><img id='play2' height='25px' src='img/videoplayer/pause.png'></div>");
 
             var volume = flash.getVolume();
             var vol_left = volume/1 * 160;
