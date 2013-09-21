@@ -105,17 +105,17 @@
 #mic{
     margin-top: -30px;
     position: absolute;
-    margin-left: 510px;
+    margin-left: 600px;
 }
 #camera{
     margin-top: -33px;
     position: absolute;
-    margin-left: 550px;
+    margin-left: 555px;
 }
 #record{
-    margin-top: -32px;
+    margin-top: -33px;
     position: absolute;
-    margin-left: 595px;
+    margin-left: 515px;
 }
 #volume{
     margin-top: -28px;

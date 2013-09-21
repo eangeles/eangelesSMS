@@ -26,8 +26,6 @@ var flashReady = function(){
 
         playing = true;
         record_play = "play";
-//        e.preventDefault();
-
 
     });
     $("#controls").on('click','#pause',function(){

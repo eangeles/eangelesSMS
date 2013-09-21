@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379644780611" ignored="false" />
     <file path="/main.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379644825882" ignored="false" />
     <file path="/normalize.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1378603818081" ignored="false" />
-    <file path="/main.js" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379644714040" ignored="false" />
+    <file path="/main.js" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379657682794" ignored="false" />
     <file path="$PROJECT_DIR$/../../Win/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379138333637" ignored="false" />
     <file path="$PROJECT_DIR$/../../Win/css/main.css.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379104898331" ignored="false" />
     <file path="$PROJECT_DIR$/../../Win/css/main.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379105840848" ignored="false" />
@@ -33,25 +33,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="86" selection-start="2092" selection-end="2092" vertical-scroll-proportion="-9.916667">
+            <state line="48" column="8" selection-start="2376" selection-end="2448" vertical-scroll-proportion="-11.791667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="19" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.37138927">
+            <state line="82" column="20" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="85" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.29768467">
               <folding />
             </state>
           </provider>
@@ -69,16 +69,16 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.css.html" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -153,7 +153,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -276,23 +276,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="85" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="86" selection-start="2092" selection-end="2092" vertical-scroll-proportion="-9.916667">
+        <state line="48" column="8" selection-start="2376" selection-end="2448" vertical-scroll-proportion="-11.791667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="19" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.37138927">
+        <state line="82" column="20" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.29768467">
           <folding />
         </state>
       </provider>
