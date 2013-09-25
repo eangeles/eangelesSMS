@@ -180,3 +180,45 @@ button{
     opacity: 0;
 }
 
+#messagesDiv{
+    margin-top: 100px;
+    color: cadetblue;
+    font-family: 'Titillium Web', sans-serif;
+}
+#name{
+    margin-top: -30px;
+    color: cadetblue;
+    font-size: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    float: left;
+    clear: right;
+}
+
+#login{
+    float: left;
+    margin-top: -20px;
+    clear: both;
+
+}
+
+#logout{
+    display: none;
+    margin-top: 40px;
+    float: left;
+    margin-left: -140px;
+}
+
+#messages{
+    margin-top: 20px;
+}
+#chat{
+    color: gray;
+    font-size: 1.9em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+em{
+    color: gray;
+}

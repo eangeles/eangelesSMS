@@ -100,4 +100,70 @@ $("#vol_seeker").click(function(e){
     flash.setVolume(mouseX/155 * 1);
 });
 
+//Firebase Chat
+
+
+var myDataRef = new Firebase('https://erwinfullsail.firebaseio.com/');
+var user_info;
+var auth = new FirebaseSimpleLogin(myDataRef, function(error, user) {
+    if (error) {
+        // an error occurred while attempting login
+        console.log(error);
+    }else if(user) {
+        // user authenticated with Firebase
+        user_info = user;
+        console.log('User ID: ' + user.id + ', Provider: ' + user.provider);
+        $("#name").html("<p>"+user.displayName+ "</p>");
+        $("#messageInput").show();
+        $("#logout").show();
+        $("#login").hide();
+
+
+    }else{
+        //user is logged out
+        user_info = null;
+        $("#name").html("<p>Guest</p>");
+        $("#messageInput").hide();
+        $("#logout").hide();
+        console.log();
+    }
+
+});
+$('#messageInput').keypress(function (e) {
+    if (e.keyCode == 13) {
+        var name = user_info.displayName;
+        var text = $('#messageInput').val();
+        console.log(name);
+        myDataRef.push({name: name, text: text,profileId:user_info.id});
+        $('#messageInput').val('');
+    }
+});
+myDataRef.on('child_added', function(snapshot) {
+    var message = snapshot.val();
+    displayChatMessage(message.name, message.text,message.profileId);
+});
+function displayChatMessage(name, text, profileId) {
+    var message = $('<div id="messages"/>').html("<em>" +name + ':</em> '  +  text);
+    if(profileId){
+        message.prepend('<img id="profile_pic" src="http://graph.facebook.com/'+profileId+'/picture" />');
+    }
+    message.appendTo($('#messagesDiv'));
+
+    $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
+};
+
+$("#login").click(function(e){
+    auth.login('facebook');
+    e.preventDefault(e);
+    return false;
+
+});
+$("#logout").click(function(e){
+    auth.logout();
+    e.preventDefault(e);
+    return false;
+});
+
+
+
 

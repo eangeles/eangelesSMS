@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,300,200' rel='stylesheet' type='text/css'>
 
-
+    <script src='https://cdn.firebase.com/v0/firebase.js'></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/swfobject.js"></script>
     <script type="text/javascript" src="js/sms_setup.js"></script>
+
+    <script type='text/javascript'
+            src='https://cdn.firebase.com/v0/firebase-simple-login.js'>
+    </script>
 </head>
 <body>
 
@@ -53,13 +57,18 @@
         <div id="vol_seeker"> <button id="vol_tab"> <img src="img/videoplayer/vol_dot.png" alt="volume seeker"></button><img src="img/videoplayer/volumeseeker.png" alt=""></div>
 
     </div>
+    <div id="chat">Chat</div>
+    <div id="name"> </div>
+    <a id="login" href="#"><img  src="img/fb.gif" alt="FB login"></a>
+    <a id="logout" href="#"><img src="img/fb_logout.png" alt="logout"></a>
 
-    <div id="comments">
-        <h3>Comments:</h3>
-        <h4>User 1:</h4>
-        <p>That is awesome!</p>
-        <h4>User 2:</h4>
-        <p>Great way to learn how to drive better!!</p>
+    <div id='messagesDiv'></div>
+
+    <input type='text' id='messageInput' placeholder='Message'>
+
+    <div id="test">
+
+
     </div>
 
     <div id="footer">
@@ -69,6 +78,8 @@
     </div>
 
 </div><!-- end wrapper -->
+
+
 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
