@@ -222,3 +222,8 @@ button{
 em{
     color: gray;
 }
+
+#messageInput{
+    margin-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}

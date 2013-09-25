@@ -5,7 +5,7 @@
     <ignored path="Site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1380073560918" ignored="false" />
-    <file path="/main.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1380073885922" ignored="false" />
+    <file path="/main.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1380074068047" ignored="false" />
     <file path="/normalize.css" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1378603818081" ignored="false" />
     <file path="/main.js" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1380072684683" ignored="false" />
     <file path="$PROJECT_DIR$/../../Win/index.html" changelist="de3da65d-3489-43f1-8c98-2539c983b3cc" time="1379138333637" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="15" selection-start="3375" selection-end="3375" vertical-scroll-proportion="0.0">
+            <state line="227" column="45" selection-start="3462" selection-end="3462" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="78" selection-start="3956" selection-end="3956" vertical-scroll-proportion="0.5667125">
+            <state line="161" column="18" selection-start="4370" selection-end="4370" vertical-scroll-proportion="0.89683634">
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
         <option value="$PROJECT_DIR$/css/main.css.html" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -284,6 +284,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="45" selection-start="3462" selection-end="3462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="18" selection-start="3268" selection-end="3268" vertical-scroll-proportion="-10.625">
@@ -293,16 +300,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="15" selection-start="3375" selection-end="3375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="78" selection-start="3956" selection-end="3956" vertical-scroll-proportion="0.5667125">
+        <state line="161" column="18" selection-start="4370" selection-end="4370" vertical-scroll-proportion="0.89683634">
           <folding />
         </state>
       </provider>
